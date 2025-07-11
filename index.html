@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Knight - Shadow of Khonshu</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="moon-bg"></div>
+        <div class="stars"></div>
+        <div class="header-content">
+            <h1 class="header-title">MOON KNIGHT</h1>
+            <p class="header-subtitle">The Fist of Khonshu</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="model-section">
+            <canvas id="model-viewer"></canvas>
+        </div>
+
+        <div class="info-section">
+            <section class="bio-section">
+                <h2 class="section-title">Who is Moon Knight?</h2>
+                <p class="section-text">
+                    Marc Spector, a former mercenary, was resurrected by the Egyptian moon god Khonshu to serve as his earthly avatar. Known as Moon Knight, he dons a silver-shrouded costume and wields crescent-shaped weapons to protect the innocent under the cover of night. Haunted by his past and struggling with dissociative identity disorder, Spector balances multiple personas—Steven Grant, Jake Lockley, and the vigilante Moon Knight—making him a complex and enigmatic hero.
+                </p>
+            </section>
+
+            <section class="traits-section">
+                <h2 class="section-title">Key Characteristics</h2>
+                <div class="traits-grid">
+                    <div class="trait-card">
+                        <h3 class="trait-title">Lunar Empowerment</h3>
+                        <p class="trait-text">Gains enhanced strength, agility, and resilience under moonlight, tied to Khonshu's influence.</p>
+                    </div>
+                    <div class="trait-card">
+                        <h3 class="trait-title">Multiple Identities</h3>
+                        <p class="trait-text">Navigates life through distinct personas, each contributing unique skills and perspectives.</p>
+                    </div>
+                    <div class="trait-card">
+                        <h3 class="trait-title">Crescent Arsenal</h3>
+                        <p class="trait-text">Wields crescent darts, truncheons, and other moon-themed weapons with lethal precision.</p>
+                    </div>
+                    <div class="trait-card">
+                        <h3 class="trait-title">Unyielding Resolve</h3>
+                        <p class="trait-text">Driven by a relentless commitment to justice, even at great personal cost.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="story-section">
+                <h2 class="section-title">The Legend of Moon Knight</h2>
+                <p class="section-text">
+                    Marc Spector's journey began in a desert, betrayed and left for dead. In his final moments, the moon god Khonshu offered him salvation in exchange for servitude. Reborn as Moon Knight, Spector became a vigilante cloaked in silver, battling crime in the shadows of urban nights. His story is one of redemption, inner conflict, and supernatural duty, as he grapples with his fractured psyche and the divine mission imposed by Khonshu. From the streets of New York to ancient ruins, Moon Knight's saga is a tale of sacrifice and heroism under the lunar glow.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Moon Knight, Inspired by MCU.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
